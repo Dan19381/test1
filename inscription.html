@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+
+            <form action="inscription.php" method="post" id="loginForm" class="form active">
+                <h2>Inscription</h2>
+                <input type="text" placeholder="Numéro de téléphone" name="numero" required>
+                <input type="password" placeholder="Entrez un mot de passe" name="password" required>
+                <input type="password" placeholder="Entrez à nouveau votre mot de passe" name="confirm_password" required>
+                <button type="submit">S'inscrire</button>
+                <p>Vous avez déjà un compte ? <span class="toggle-link"><a href="connexion.html">Connectez-vous ici</a></span></p>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
